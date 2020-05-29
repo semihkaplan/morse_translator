@@ -85,6 +85,7 @@ def beep():
         time.sleep(0.1)
 
 
-get_input()
-print("\n{}\n\n{}".format(text, morse))
-beep()
+if __name__ == '__main__':
+    get_input()
+    print("\n{}\n\n{}".format(text, morse))
+    beep()
