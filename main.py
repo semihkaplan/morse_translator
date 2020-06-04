@@ -87,5 +87,5 @@ def beep():
 
 if __name__ == '__main__':
     get_input()
-    print("\n{}\n\n{}".format(text, morse))
+    print("\n{}\n\n{}\n".format(text, morse))
     beep()
